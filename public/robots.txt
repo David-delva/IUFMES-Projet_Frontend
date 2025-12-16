@@ -1,0 +1,11 @@
+# robots.txt pour IUFMES
+
+User-agent: *
+Allow: /
+
+# Pages à ne pas indexer
+Disallow: /admin/
+Disallow: /api/
+
+# Sitemap
+Sitemap: http://localhost:3000/sitemap.xml
